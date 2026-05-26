@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papel Vivo | Arte, Sementes e Sustentabilidade</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" tabindex="0">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand text-success fw-bold d-flex align-items-center gap-2" href="#inicio">
+                <!-- Logo atualizada com imagem circular -->
+                <img src="img/logo.jpeg" alt="Logo Papel Vivo" class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover;">
+                Papel Vivo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fw-medium">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipe">Nossa Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sementes">Sementes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tintas">Pigmentos Naturais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#passo-a-passo">Passo a Passo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#arduino">Estufa com Arduino Uno</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introdução dividida (Texto à Esquerda / Imagem à Direita) com Gradiente -->
+    <header id="inicio" class="hero-section d-flex align-items-center" style="background: linear-gradient(to right, var(--verde-claro), var(--verde-principal)); min-height: 90vh;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!-- Coluna Esquerda: Texto -->
+                <div class="col-lg-7 text-start mb-5 mb-lg-0 pe-lg-5">
+                    <span class="badge bg-success text-white mb-3 px-3 py-2 rounded-pill shadow-sm">Projeto Escolar Sustentável</span>
+                    <h1 class="display-4 fw-bold mb-4">Dê vida ao papel que você descarta.</h1>
+                    
+                    <p class="lead mb-5" style="font-size: 1.15rem; line-height: 1.6;">
+                        O projeto <strong>"Papel Vivo"</strong> é uma iniciativa escolar interdisciplinar focada na sustentabilidade, que transforma o papel descartado nas instituições de ensino em "papel semente" artesanal ecológico. Para garantir a secagem segura sem danificar a germinação das sementes, o processo produtivo utiliza uma estufa automatizada controlada por <strong>Arduino Uno</strong>, alimentada por energia limpa proveniente de um sistema de energia solar. Além de promover a educação ambiental e o engajamento prático em tecnologia, ciências e artes para os alunos de tempo integral, a proposta inclui a criação de um site para divulgar o passo a passo da iniciativa, permitindo que o modelo sustentável seja facilmente replicado por outras comunidades escolares.
+                    </p>
+                    
+                    <a href="#passo-a-passo" class="btn btn-success btn-lg text-white fw-bold px-5 rounded-pill shadow">Veja como fazemos <i class="fa-solid fa-arrow-down ms-2"></i></a>
+                </div>
+                
+                <!-- Coluna Direita: Imagem -->
+                <div class="col-lg-5">
+                    <img src="img/professores.jpeg" alt="Professores e Alunos do Projeto" class="img-fluid rounded-4 shadow-lg w-100 border border-3 border-white" style="object-fit: cover; max-height: 500px;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="equipe" class="py-5 bg-light">
+        <div class="container py-5 text-center">
+            
+            <h2 class="fw-bold text-success mb-3">Professores Orientadores</h2>
+            <p class="text-muted mb-5">Os educadores que guiam a pesquisa e o desenvolvimento do projeto.</p>
+            
+            <div class="row justify-content-center g-4 mb-5 pb-4 border-bottom">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <img src="img/james.jpg" alt="James Tatieres" class="mx-auto mb-3 rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h6 class="fw-bold mb-1">James Tatieres</h6>
+                        <p class="text-muted small mb-0">Professor Orientador</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <img src="img/leonardo.jpg" alt="Leonardo" class="mx-auto mb-3 rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h6 class="fw-bold mb-1">Leonardo</h6>
+                        <p class="text-muted small mb-0">Professor Orientador</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <!-- João Sergio mantido com o placeholder -->
+                        <div class="avatar-bg mx-auto mb-3 text-white bg-dark d-flex align-items-center justify-content-center rounded-circle fs-3 shadow" style="width: 80px; height: 80px;">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h6 class="fw-bold mb-1">João Sergio</h6>
+                        <p class="text-muted small mb-0">Professor Orientador</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="fw-bold text-success mb-3">Alunos Pesquisadores</h2>
+            <p class="text-muted mb-5">Os alunos responsáveis por transformar essa ideia em realidade.</p>
+            
+            <div class="row justify-content-center g-4">
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <img src="img/maria.jpg" alt="Maria Beatriz" class="mx-auto mb-3 rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h6 class="fw-bold mb-1">Maria Beatriz Rodrigues Moreira</h6>
+                        <p class="text-muted small mb-0">Aluna</p>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <img src="img/sara.jpg" alt="Sara Raiane" class="mx-auto mb-3 rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h6 class="fw-bold mb-1">Sara Raiane de Sousa Mota</h6>
+                        <p class="text-muted small mb-0">Aluna</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <img src="img/kelvin.jpg" alt="Kelvin Dias" class="mx-auto mb-3 rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h6 class="fw-bold mb-1">Kelvin Dias Rodrigues</h6>
+                        <p class="text-muted small mb-0">Aluno</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <img src="img/lara.jpg" alt="Lara Beatryz" class="mx-auto mb-3 rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h6 class="fw-bold mb-1">Lara Beatryz Medeiros Brito</h6>
+                        <p class="text-muted small mb-0">Aluna</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="card border-0 shadow-sm p-3 h-100 bg-white hover-card">
+                        <img src="img/livia.jpg" alt="Lívia Maria" class="mx-auto mb-3 rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h6 class="fw-bold mb-1">Lívia Maria Guimarães Diniz</h6>
+                        <p class="text-muted small mb-0">Aluna</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sementes" class="py-5">
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold text-success mb-3">Sementes da Vida</h2>
+            <p class="text-muted lead mx-auto mb-5" style="max-width: 700px;">
+                Em vez de ir para o lixo, nosso papel vai para a terra. Escolhemos sementes especiais que, além de germinarem plantas incríveis, têm forte ligação com a nossa cultura e com as cores da natureza.
+            </p>
+            
+            <div class="row justify-content-center g-4 text-start">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm p-4 h-100 bg-light border-success-subtle hover-card">
+                        <i class="fa-solid fa-seedling fs-1 text-success mb-3"></i>
+                        <h5 class="fw-bold">Cacau</h5>
+                        <p class="text-muted small mb-0">Uma semente nativa e preciosa. Símbolo da nossa biodiversidade, cultivar cacau é valorizar a nossa terra e a rica origem do chocolate.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm p-4 h-100 bg-light border-success-subtle hover-card">
+                        <i class="fa-solid fa-droplet fs-1 text-success mb-3"></i>
+                        <h5 class="fw-bold">Corante Urucum</h5>
+                        <p class="text-muted small mb-0">Famoso por seu pigmento vermelho intenso. Suas sementes não só germinam belas árvores, mas também são fontes valiosas de corantes 100% naturais.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm p-4 h-100 bg-light border-success-subtle hover-card">
+                        <i class="fa-solid fa-sun fs-1 text-success mb-3"></i>
+                        <h5 class="fw-bold">Açafrão da Terra</h5>
+                        <p class="text-muted small mb-0">Também conhecido como cúrcuma. Destaca-se pelo seu tom amarelo-ouro vibrante e por ser uma planta rústica, excelente para cultivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tintas" class="py-5 bg-success text-white">
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold mb-3">Pigmentos Naturais</h2>
+            <p class="mb-5 mx-auto text-light" style="max-width: 700px;">
+                Cores 100% naturais, sem químicos agressivos. Em nosso projeto, unimos a força do carvão mineral aos pigmentos extraídos das próprias sementes que cultivamos, criando uma paleta de cores viva e ecologicamente correta para nossa arte no papel sustentável.
+            </p>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/carvao.jpeg" alt="Carvão Mineral" class="rounded-circle mx-auto mb-3 shadow hover-card" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid white;">
+                    <h5 class="fw-bold">Carvão Mineral</h5>
+                    <p class="text-light small mt-2 px-2">Tons escuros intensos e marcações rústicas para contornos.</p>
+                </div>
+                
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/urucum.jpeg" alt="Urucum" class="rounded-circle mx-auto mb-3 shadow hover-card" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid white;">
+                    <h5 class="fw-bold">Urucum</h5>
+                    <p class="text-light small mt-2 px-2">Pigmento natural que rende um vermelho terroso e vibrante.</p>
+                </div>
+
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/acafrao.jpeg" alt="Açafrão" class="rounded-circle mx-auto mb-3 shadow hover-card" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid white;">
+                    <h5 class="fw-bold">Açafrão</h5>
+                    <p class="text-light small mt-2 px-2">Extração que proporciona um amarelo-ouro radiante e cheio de vida.</p>
+                </div>
+
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/cacau.jpeg" alt="Cacau" class="rounded-circle mx-auto mb-3 shadow hover-card" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid white;">
+                    <h5 class="fw-bold">Cacau</h5>
+                    <p class="text-light small mt-2 px-2">Tons de marrom ricos e texturizados, com forte conexão à nossa terra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="passo-a-passo" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="fw-bold text-success text-center mb-5">Passo a Passo da Criação</h2>
+            
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm h-100 bg-white hover-card overflow-hidden">
+                        <img src="img/coleta.jpeg" class="card-img-top" alt="Coleta e Seleção" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center position-relative pt-4">
+                            <div class="passo-numero bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto fs-4 fw-bold shadow position-absolute start-50 translate-middle-x" style="width: 50px; height: 50px; top: -25px; border: 3px solid white;">1</div>
+                            <h5 class="fw-bold mt-3">Coleta e Seleção</h5>
+                            <p class="text-muted small">Um ponto de descarte é disponibilizado na escola para receber provas, atividades e papéis do cotidiano. O material coletado passa por uma triagem para remover o que não é papel (grampos, adesivos).</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm h-100 bg-white hover-card overflow-hidden">
+                        <img src="img/maceracao.jpeg" class="card-img-top" alt="Maceração" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center position-relative pt-4">
+                            <div class="passo-numero bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto fs-4 fw-bold shadow position-absolute start-50 translate-middle-x" style="width: 50px; height: 50px; top: -25px; border: 3px solid white;">2</div>
+                            <h5 class="fw-bold mt-3">Maceração</h5>
+                            <p class="text-muted small">O papel selecionado é cortado e imerso em água até se transformar em uma pasta homogênea e moldável.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm h-100 bg-white hover-card overflow-hidden">
+                        <img src="img/moldagem.jpeg" class="card-img-top" alt="Moldagem e Inserção das Sementes" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center position-relative pt-4">
+                            <div class="passo-numero bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto fs-4 fw-bold shadow position-absolute start-50 translate-middle-x" style="width: 50px; height: 50px; top: -25px; border: 3px solid white;">3</div>
+                            <h5 class="fw-bold mt-3">Moldagem e Sementes</h5>
+                            <p class="text-muted small">A pasta é prensada em um molde de madeira para retirar o excesso de água. Com o papel ainda úmido, as sementes são distribuídas e posicionadas uniformemente na folha.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm h-100 bg-white hover-card overflow-hidden">
+                        <img src="img/secagem.jpeg" class="card-img-top" alt="Secagem na Estufa" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center position-relative pt-4">
+                            <div class="passo-numero bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto fs-4 fw-bold shadow position-absolute start-50 translate-middle-x" style="width: 50px; height: 50px; top: -25px; border: 3px solid white;">4</div>
+                            <h5 class="fw-bold mt-3">Secagem na Estufa</h5>
+                            <p class="text-muted small">O papel com as sementes vai para a estufa automatizada com Arduino, que mantém a temperatura entre 35°C e 40°C para secar o papel sem danificar a germinação. A estufa é alimentada por energia solar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card border-0 shadow-sm h-100 bg-white hover-card overflow-hidden">
+                        <img src="img/reutilizacao_papel.jpeg" class="card-img-top" alt="Secagem na Estufa" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center position-relative pt-4">
+                            <div class="passo-numero bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto fs-4 fw-bold shadow position-absolute start-50 translate-middle-x" style="width: 50px; height: 50px; top: -25px; border: 3px solid white;">4</div>
+                            <h5 class="fw-bold mt-3">Secagem na Estufa</h5>
+                            <p class="text-muted small">O papel com as sementes vai para a estufa automatizada com Arduino, que mantém a temperatura entre 35°C e 40°C para secar o papel sem danificar a germinação. A estufa é alimentada por energia solar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="arduino" class="py-5 bg-success text-white">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!-- Coluna Esquerda: Texto -->
+                <div class="col-lg-7 text-start mb-5 mb-lg-0 pe-lg-5">
+                    <h2 class="display-4 fw-bold mb-4">Arte com Tintas Naturais</h2>
+                    
+                    <p class="lead mb-5" style="font-size: 1.15rem; line-height: 1.6;">
+                        O Arduino será responsável pelo controle automático da temperatura da estufa utilizada na secagem do Papel Vivo. Por meio de um sensor de temperatura, o sistema monitora continuamente o ambiente interno da estufa, ligando ou desligando as lâmpadas de aquecimento conforme a necessidade. Dessa forma, a secagem do papel ocorre de maneira controlada, evitando temperaturas excessivas que possam danificar as sementes presentes no papel reciclado. O sistema automatizado também contribui para maior eficiência energética e segurança durante o processo de secagem.
+                    </p>
+                    <a href="https://github.com/escolaHelvidioNunes/PapellVivo" target="_blank" class="text-decoration-none">
+                        <span class="badge text-white mb-3 px-4 py-2 rounded-pill shadow-sm fs-6 hover-card">
+                            <i class="fa-brands fa-github me-2 fs-5"></i> Repositório no GitHub
+                        </span>
+                    </a>
+
+                </div>
+                
+                <!-- Coluna Direita: Imagem -->
+                <div class="col-lg-5">
+                    <img src="img/img_esquema.jpeg" alt="Professores e Alunos do Projeto" class="img-fluid rounded-4 shadow-lg w-100 border border-3 border-white" style="object-fit: cover; max-height: 500px;">
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0"><i class="fa-solid fa-seedling text-success"></i> Projeto Papel Vivo - Sustentabilidade Escolar</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
