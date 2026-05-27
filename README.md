@@ -51,6 +51,10 @@ papelVivo/
     ├── acafrao.jpeg
     ├── cacau.jpeg
     └── (Fotos da equipe)
+---
+```
+
+---
 
 ## ⚙️ Funcionalidades do Site
 
