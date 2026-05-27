@@ -25,7 +25,6 @@ O site foi construído seguindo a arquitetura clássica de 3 camadas para aplica
 
 1.  **Estrutura (HTML5):** Semântica e acessibilidade. Formato *Single Page* (Página Única).
 2.  **Apresentação (CSS3 + Bootstrap 5):** Estilização responsiva (Mobile First), utilizando variáveis CSS nativas e o sistema de grids do Bootstrap.
-3.  **Comportamento (JavaScript):** Interatividade leve para controle de navegação (fechamento automático do menu mobile).
 
 ### Árvore de Arquivos
 ```text
