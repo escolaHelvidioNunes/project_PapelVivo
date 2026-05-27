@@ -1,9 +1,7 @@
-# 🌱 Papel Vivo: Do Lixo à Vida
-
+# 🌱 Do Lixo à Vida: Papel Reciclado com Sementes e Energia Limpa
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat&logo=bootstrap&logoColor=white)
 
 O projeto **"Papel Vivo"** é uma iniciativa escolar interdisciplinar focada na sustentabilidade. Ele transforma o papel descartado nas instituições de ensino em "papel semente" artesanal e ecológico. 
