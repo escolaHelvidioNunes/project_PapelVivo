@@ -77,8 +77,8 @@ papelVivo/
 
 **Professores Orientadores:**
 
-* James Tatieres
-* Leonardo
+* James Tatieres Magalhães Souza
+* Leonardo Freire Bastos
 
 **Alunos Pesquisadores:**
 
