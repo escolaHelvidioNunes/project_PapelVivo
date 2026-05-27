@@ -83,7 +83,7 @@ papelVivo/
 ---
 
 **Para acessar a versão online (Deploy):**
-O site está hospedado gratuitamente e de forma contínua através do [GitHub Pages](https://pages.github.com/). Acesse o link no painel lateral do repositório ("Environments").
+O site está hospedado gratuitamente e de forma contínua através do [GitHub Pages](https://pages.github.com/). Acesse o link [Papel Vivo]([https://pages.github.com/](https://escolahelvidionunes.github.io/project_PapelVivo/)) para visualizar o site.
 
 ---
 
