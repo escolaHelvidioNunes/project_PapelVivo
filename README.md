@@ -82,11 +82,11 @@ papelVivo/
 
 **Alunos Pesquisadores:**
 
-* Maria Beatriz Rodrigues Moreira *(Pesquisa e Produção)*
-* Sara Raiane de Sousa Mota *(Design e Tintas)*
-* Kelvin Dias Rodrigues *(Moldagem e Secagem)*
-* Lara Beatryz Medeiros Brito *(Seleção de Sementes)*
-* Lívia Maria Guimarães Diniz *(Apresentação e Mídia)*
+* Maria Beatriz Rodrigues Moreira 
+* Sara Raiane de Sousa Mota 
+* Kelvin Dias Rodrigues 
+* Lara Beatryz Medeiros Brito 
+* Lívia Maria Guimarães Diniz 
 
 ---
 
