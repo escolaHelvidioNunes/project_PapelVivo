@@ -37,20 +37,29 @@ papelVivo/
 ├── README.md           # Documentação do projeto
 ├── css/
 │   └── style.css       # Estilos personalizados e sobrescritas do Bootstrap
-├── js/
-│   └── script.js       # Lógica de interatividade do menu mobile
-└── img/                # Diretório de mídias e assets
-    ├── logo.jpeg
-    ├── professores.jpeg
-    ├── coleta.jpeg
-    ├── maceracao.jpeg
-    ├── moldagem.jpeg
-    ├── secagem.jpeg
-    ├── carvao.jpeg
-    ├── urucum.jpeg
-    ├── acafrao.jpeg
-    ├── cacau.jpeg
-    └── (Fotos da equipe)
+├── img/                # Diretório de mídias e assets
+│    ├── logo.jpeg
+│    ├── professores.jpeg
+│    ├── coleta.jpeg
+│    ├── maceracao.jpeg
+│    ├── moldagem.jpeg
+│    ├── secagem.jpeg
+│    ├── carvao.jpeg
+│    ├── urucum.jpeg
+│    ├── acafrao.jpeg
+│    ├── cacau.jpeg
+│    ├── img_esquema.jpeg
+│    └── reutilizacao_papel.jpeg
+└── fotos_projeto/       # Diretório das fotos do desenvolvimento do projeto
+│    ├── arte_com_tintas_naturais_1.jpeg
+│    ├── arte_com_tintas_naturais_turma_teste.jpeg
+│    ├── maceracao_turma_teste_1.jpeg
+│    ├── maceracao_turma_teste_2.jpeg
+│    ├── moldagem_com_a_semente_turma_teste_1.jpeg
+│    ├── moldagem_com_a_semente_turma_teste_2.jpeg
+│    ├── montagem_do_circuito_da_estufa_1.jpeg
+│    ├── montagem_do_circuito_da_estufa2.jpeg
+│    └── montagem_do_circuito_da_estufa_3.jpeg
 ```
 
 ---
